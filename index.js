@@ -40,6 +40,8 @@ app.use("/api/auth",authRoot)
 app.use("/api/users",userRoot)
 app.use("/api/posts",postRoot)
 app.use("/api/categories",categoryRoot)
-app.listen('5000',()=>{
-    console.log("server is running ")
-})
+// app.listen('5000',()=>{
+//     console.log("server is running ")
+// })
+
+module.exports=app
