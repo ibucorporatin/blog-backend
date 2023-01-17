@@ -19,7 +19,7 @@ try {
 }
 })
 
-module.exports = router;
+
 // login
 router.post("/login",async(req,res)=>{
 try {
@@ -41,3 +41,4 @@ try {
 }
 })
 
+module.exports = router;
