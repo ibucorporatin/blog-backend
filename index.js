@@ -16,7 +16,7 @@ app.use("/images",express.static(path.join(__dirname,"images")))
 mongoose.connect(process.env.MONGO_URL,{
     useNewUrlParser: true,
     useUnifiedTopology: true
-})  .then(() => console.log("DB Connection Successfull!"))
+})  .then(() => console.log("DB Connection Successfull! 2"))
 .catch((err) => {
   console.log(err);
 });
@@ -44,4 +44,4 @@ app.listen('5000',()=>{
     console.log("server is running ")
 })
 
-// module.exports=app
+module.exports=app
